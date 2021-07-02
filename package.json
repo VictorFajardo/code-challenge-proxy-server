@@ -8,14 +8,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "twitter": "node api.js",
     "test": "node test.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "node-json-transform": "^1.1.2",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "got": "^11.3.0",
+    "request": "^2.88.2",
     "tape": "^4.7.0"
   },
   "repository": {
